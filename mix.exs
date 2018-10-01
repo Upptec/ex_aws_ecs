@@ -21,7 +21,7 @@ defmodule ExAwsEcs.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_aws, "~> 2.0.0"},
+      {:ex_aws, "~> 2.1"},
       {:hackney, ">= 0.0.0", only: [:dev, :test]},
       {:poison, ">= 0.0.0", only: [:dev, :test]}
       # {:dep_from_hexpm, "~> 0.3.0"},
